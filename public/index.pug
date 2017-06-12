@@ -1,0 +1,46 @@
+head
+	link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Anton|Raleway')
+	link(rel='stylesheet' href='css/styles.css')
+	
+	script(src='assets/javascripts/jquery-3.2.1.min.js')
+	script(src='assets/javascripts/bootstrap.min.js')
+
+	script(src='js/svgEffect.js')
+body
+	.navbar.navbar-inverse.raleway
+		.container-fluid
+			.navbar-header
+				a.navbar-brand(href='#')
+					| Michael Kurowski
+			ul.nav.navbar-nav
+				li.active
+					a(href='#!/')
+						| Home
+				li
+					a(href='#!/gallery')
+						| Portfolio
+				li
+					a(href='#!/contact')
+						| Contact
+	.container-fluid
+		object#bad-pic.center-block.img-responsive.img-circle(data='assets/images/rysunek.svg')
+		.row
+			.col-md-6
+				h1.center-block
+					span.anton.f-size-medium
+						|Let's create a 
+					span.anton.f-size-big
+						|project 
+				h1.center-block
+					span.anton.f-size-medium
+						|that people 
+				h1.center-block
+					span.anton.f-size-big
+						|will remember
+				h1
+					spawn.raleway.f-size-small
+						|I create custom websities, web applications, animations and  
+						|digital art.
+			.col-md-6
+				img.center-block.img-responsive.img-circle(src='assets/images/200des.png')
+				
